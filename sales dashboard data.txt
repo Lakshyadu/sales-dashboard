@@ -1,0 +1,49 @@
+
+1. **Sample Data for Dashboard**  
+   Here’s a sample dataset you can use to populate your dashboard:
+
+   ```json
+   {
+       "monthlyRevenue": [85000, 92000, 102000, 108000, 115000, 124568, 132000, 145000, 151000, 160000, 168000, 175000],
+       "quarterlyRevenue": [385000, 412000, 446000, 485000],
+       "revenueByChannel": [
+           { "name": "Online", "value": 55 },
+           { "name": "Retail", "value": 30 },
+           { "name": "Wholesale", "value": 15 }
+       ],
+       "categories": [
+           { "name": "Electronics", "value": 45, "growth": 12.5 },
+           { "name": "Clothing", "value": 25, "growth": 8.2 },
+           { "name": "Home Goods", "value": 15, "growth": 4.5 },
+           { "name": "Books", "value": 10, "growth": 2.1 },
+           { "name": "Other", "value": 5, "growth": -1.2 }
+       ],
+       "regions": [
+           { "name": "North", "value": 35, "growth": 24.1 },
+           { "name": "South", "value": 25, "growth": 18.3 },
+           { "name": "East", "value": 20, "growth": 12.7 },
+           { "name": "West", "value": 15, "growth": 8.9 },
+           { "name": "International", "value": 5, "growth": 5.3 }
+       ],
+       "topProducts": [
+           { "name": "Smartphone X", "sales": 54200, "units": 320, "percentage": 23, "margin": 32 },
+           { "name": "Wireless Headphones", "sales": 38200, "units": 410, "percentage": 16, "margin": 28 },
+           { "name": "Smart Watch", "sales": 28700, "units": 185, "percentage": 12, "margin": 35 },
+           { "name": "Laptop Pro", "sales": 19500, "units": 92, "percentage": 8, "margin": 22 },
+           { "name": "Tablet Mini", "sales": 16400, "units": 140, "percentage": 7, "margin": 25 }
+       ],
+       "acquisitionData": {
+           "new": 245,
+           "repeat": 631,
+           "vip": 89,
+           "segments": [
+               { "name": "Students", "value": 35 },
+               { "name": "Professionals", "value": 45 },
+               { "name": "Seniors", "value": 12 },
+               { "name": "Others", "value": 8 }
+           ]
+       },
+       "sparklineData": [3, 5, 2, 6, 8, 4, 7, 10, 9, 8, 7, 10]
+   }
+  
+
